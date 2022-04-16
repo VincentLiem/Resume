@@ -3,35 +3,44 @@
 }
 
 h1 {
-    font-size: xx-large;
+    font-size: 28px;
     text-align: center;
     width: 100%;
-    background-color: lightblue
+    margin: 4rem 0rem 1rem 0rem;
 }
 
 #Nav_Bar {
     position: fixed;
-    border: 3px solid black;
+    border-bottom: 3px solid black;
     width: 100%;
     overflow: hidden;
     background-color: lightblue;
     top:0;
+    left:0;
+    text-align: center;
+    padding: 1rem;
 }
 
 .Resume_Section {
     border: 3px solid black;
+    border-collapse: collapse;
+    margin:-3px 1rem;
+    padding: 1rem;
 }
 
 h2 {
     margin: 1rem;
+    font-size: 20px;
 }
 
 h3 {
     margin: 1rem;
+    font-size: 16px
 }
 
 h4 {
     margin: 1rem;
+    font-size: 14px
 }
 
 h5 {
@@ -43,9 +52,9 @@ h6 {
 }
 
 p {
-    margin: 1rem;
+    margin: 1rem 1rem;
 }
 
 a {
-    margin: 1rem;
+    margin: 1rem 1rem;
 }
