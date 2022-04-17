@@ -10,50 +10,6 @@ h1 {
     font-style: bold;
 }
 
-#Resume_Photo {
-    text-align: center;
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-    border: 5px double black;
-    border-radius: 10%;
-    box-shadow: 0 0 20px grey;
-    margin: auto;
-    display: block;
-}
-
-#Nav_Bar {
-    position: fixed;
-    border-bottom: 3px solid black;
-    width: 100%;
-    height: 1rem;
-    overflow: hidden;
-    background-color: lightblue;
-    top: 0;
-    left: 0;
-    padding: 1rem;
-    box-shadow: 0 0 20px grey;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap: 2rem;
-    overflow: auto;
-    white-space: nowrap;
-}
-
-.Contact_Links {
-    margin: 1rem;
-}
-
-.Resume_Section {
-    border: 3px solid black;
-    border-collapse: collapse;
-    margin: 1rem 1rem;
-    padding: 2rem;
-    border-radius: 15px;
-    box-shadow: 0 0 10px grey;
-}
-
 h2 {
     margin: 1rem;
     font-size: 26px;
@@ -87,4 +43,61 @@ h6 {
 p {
     margin: .5rem 1rem;
     font-size: 14px;
+}
+
+#Resume_Photo {
+    text-align: center;
+    width: 400px;
+    height: 400px;
+    object-fit: cover;
+    border: 5px double black;
+    border-radius: 10%;
+    box-shadow: 0 0 20px grey;
+    margin: auto;
+    display: block;
+}
+
+@media (max-width: 500px) {
+    #Resume_Photo {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+#Nav_Bar {
+    position: fixed;
+    border-bottom: 3px solid black;
+    width: 100%;
+    height: 1rem;
+    overflow: hidden;
+    background-color: lightblue;
+    top: 0;
+    left: 0;
+    padding: 1rem;
+    box-shadow: 0 0 20px grey;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    overflow: auto;
+    white-space: nowrap;
+    z-index: 99;
+}
+
+@media (max-width: 680px) {
+    #Nav_Bar {
+        display: none
+    }
+}
+
+.Contact_Links {
+    margin: 1rem;
+}
+
+.Resume_Section {
+    border: 3px solid black;
+    margin: 1rem 1rem;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 0 10px grey;
 }
