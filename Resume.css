@@ -128,6 +128,10 @@ a:visited {
     }
 }
 
+.Job {
+    margin: auto auto 3rem;
+}
+
 #To_Top {
     display: none
 }
