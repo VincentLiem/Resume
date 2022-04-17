@@ -96,8 +96,16 @@ p {
 
 .Resume_Section {
     border: 3px solid black;
-    margin: 1rem 1rem;
-    padding: 2rem;
+    margin: 1rem auto;
+    padding: 3rem;
     border-radius: 15px;
     box-shadow: 0 0 10px grey;
+    max-width: 1280px;
+
+}
+
+@media (max-height: 680px) {
+    .Resume_Section {
+        padding: 2rem;
+    }
 }
