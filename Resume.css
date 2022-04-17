@@ -45,6 +45,14 @@ p {
     font-size: 14px;
 }
 
+a. {
+    color: Blue;
+}
+
+a:visited {
+    color: Blue;
+}
+
 #Resume_Photo {
     text-align: center;
     width: 400px;
@@ -70,6 +78,7 @@ p {
     width: 100%;
     height: 1rem;
     overflow: hidden;
+    background: linear-gradient(0deg, lightblue 20%, blue 100%);
     background-color: lightblue;
     top: 0;
     left: 0;
@@ -82,6 +91,15 @@ p {
     overflow: auto;
     white-space: nowrap;
     z-index: 99;
+
+}
+
+.Nav_Bar_Link {
+    color: Black;
+}
+
+.Nav_Bar_Link:visited {
+    color: Black;
 }
 
 @media (max-width: 680px) {
