@@ -1,3 +1,7 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
 h1 {
     font-size: 28px;
     text-align: center;
@@ -5,18 +9,19 @@ h1 {
     margin: 4rem 0rem 1rem 0rem;
     font-style: bold;
 }
-#Resume_Photo
-{
+
+#Resume_Photo {
     text-align: center;
     width: 300px;
     height: 300px;
     object-fit: cover;
-    border:5px double black;
+    border: 5px double black;
     border-radius: 10%;
     box-shadow: 0 0 20px grey;
     margin: auto;
     display: block;
 }
+
 #Nav_Bar {
     position: fixed;
     border-bottom: 3px solid black;
@@ -31,7 +36,13 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
+    gap: 2rem;
     overflow: auto;
+    white-space: nowrap;
+}
+
+.Contact_Links {
+    margin: 1rem;
 }
 
 .Resume_Section {
@@ -76,8 +87,4 @@ h6 {
 p {
     margin: .5rem 1rem;
     font-size: 14px;
-}
-
-a {
-    margin: 1rem 1rem;
 }
