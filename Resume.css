@@ -161,11 +161,12 @@ a:visited {
         background-color: lightblue;
     }
 
+    #To_Top_Link,
     #To_Top_Link:visited {
         color: Black;
-    }
-
-    #To_Top_Link:visited {
-        color: Black;
+        text-decoration: none;
+        padding: 1em;
+        margin: -1em;
+        z-index: 99;
     }
 }
